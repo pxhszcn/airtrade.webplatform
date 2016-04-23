@@ -1,0 +1,109 @@
+<!-- list -->
+<ul class="nav">
+    <!-- trade -->
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span translate="aside.nav.trade.TRADE"></span>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.buy">
+            <i class="fa fa-cart-plus fa-lg"></i>
+            <span class="font-bold" translate="aside.nav.trade.BUY"></span>
+        </a>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.sell">
+            <i class="fa fa-cart-arrow-down fa-lg"></i>
+            <span class="font-bold" translate="aside.nav.trade.SELL"></span>
+        </a>
+    </li>
+
+    <li>
+        <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+            <i class="fa fa-search fa-lg"></i>
+            <span translate="aside.nav.trade.query.QUERY"></span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a href>
+                    <span translate="aside.nav.trade.query.QUERY"></span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.position">
+                    <span translate="aside.nav.trade.query.POSITION"></span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.canceled_order">
+                    <span translate="aside.nav.trade.query.CANCELED_ORDER"></span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.traded_order">
+                    <span translate="aside.nav.trade.query.TRADED_ORDER"></span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <!-- / trade -->
+
+    <!-- market data -->
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span translate="aside.nav.market_data.MARKET_DATA"></span>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.market_index">
+            <i class="fa fa-line-chart fa-lg"></i>
+            <span class="font-bold" translate="aside.nav.market_data.MARKET_INDEX"></span>
+        </a>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.share">
+            <i class="fa fa-area-chart fa-lg"></i>
+            <span class="font-bold" translate="aside.nav.market_data.SHARE"></span>
+        </a>
+    </li>
+    <!-- / market_data -->
+
+    <!-- historical market data -->
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span translate="aside.nav.historical_market_data.HISTORICAL_MARKET_DATA"></span>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.historical_market_index">
+            <i class="fa fa-line-chart fa-lg"></i>
+            <span class="font-bold" translate="aside.nav.historical_market_data.MARKET_INDEX"></span>
+        </a>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.historical_share">
+            <i class="fa fa-area-chart fa-lg"></i>
+            <span class="font-bold" translate="aside.nav.historical_market_data.SHARE"></span>
+        </a>
+    </li>
+    <!-- / historical market_data -->
+
+    <!-- financial market data -->
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span translate="aside.nav.financial_data.FINANCIAL_DATA"></span>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.financial_data">
+            <i class="fa fa-dollar fa-lg"></i>
+            <span class="font-bold" translate="aside.nav.financial_data.FINANCIAL_DATA"></span>
+        </a>
+    </li>
+    <!-- / historical market_data -->
+</ul>
+<!-- / list -->
